@@ -1,0 +1,51 @@
+<vbox width="100%"
+	  height="100%"
+	  id="logger"
+	  verticalAlign="center"
+	  horizontalAlign="center"
+	  >
+	<style source="../css/main.css" />
+		<label text="{{MAIN_TITLE}}"
+			   styleName="h1"
+			   />
+	<grid id="credentials"
+		  width="100%"
+		  height="95%"
+		  top="45%"
+		  left="45%"
+		  columns="3"
+		  >
+
+		<!-- 1 -->
+		
+		<!-- 2 -->
+		<label 
+			id = "LOGIN_USERNAME"
+			text="{{LOGIN_USERNAME}}"
+			   styleName="h2meta"
+			   tooltip="Use your NT credentials\n Expl: gclooney\nWh@tEls3"
+			   />
+		<textfield id="username"
+				   allowFocus="true"
+				   />
+		<box id="myCanvas" />
+		<!-- 3 -->
+		<label text="{{LOGIN_PASSWORD}}"
+			   styleName="h2meta"
+			   tooltip="Use your NT credentials\n Expl: gclooney\nWh@tEls3"
+			   />
+		<textfield 
+				   id="pwd"
+					text=""
+			allowFocus="true"
+				   />
+		<image text="show" resource="images/eye.png" id="showPwd" width="40px" tooltip="{{SHOW_PWD}}" />
+		<!-- 4 -->
+		<box />
+		<button text="{{LOGIN_BTN}}"
+				id="login"
+				/>
+		<label id="feedback">
+		</label>
+	</grid>
+</vbox>

@@ -1,0 +1,48 @@
+
+
+
+
+#AgentListing, #logger, #haxeui-container {
+    /*border: 1px solid #CCCCCC;*/
+   padding:24px;
+	background-color: #4c4d4c;
+	color:#d6d58e; 
+}
+#AgentListing{
+	width:100%;
+	height:100%;
+}
+.big-button {
+    font-size: 30px;
+    width: 250px;
+}
+
+#AgentListing{
+	padding:24px;
+}
+
+h2{
+	font-size: 14px;
+}
+#myCanvas{
+	left: 600px;
+	position:absolute;
+}
+#logger{
+	
+}
+.h1{
+	/*color: #dbf227;
+	//color: #BAD1CD;*/
+	color:  #4ECDC4;
+	font-variant: small-caps;
+	letter-spacing:.6rem;
+	font-size: 24px;
+	/*font-family: monospace;*/
+}
+.h2{
+	/*color: #dbf227;
+	color: #E6F9AF;*/
+	color: #ECD444 ;
+	font-size: 14px;
+}

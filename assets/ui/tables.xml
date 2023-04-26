@@ -1,0 +1,85 @@
+<box>
+	<hbox width="100%"
+		height="100%">
+		<vbox width="30%"
+			height="100%">
+			<label id="_scoreLabel"
+				text="Scores"
+				styleName="h2" />
+			<tableview id="_scores"
+				height="50%"
+				width="100%">
+				<header width="100%">
+					<column id="who"
+						text="who"
+						width="25%"
+						sortable="true" />
+					<column id="first_score"
+						text="first"
+						width="15%"
+						sortable="true" />
+					<column id="last_score"
+						text="last"
+						width="15%"
+						sortable="true" />
+					<column id="max_score"
+						text="max"
+						width="15%"
+						sortable="true" />
+					<column id="min_score"
+						text="min"
+						width="15%"
+						sortable="true" />
+					<column id="attemps"
+						text="attemps"
+						width="15%"
+						sortable="true" />
+				</header>
+			</tableview>
+			<button id="_download_scores"
+				text="download scores as csv" icon="images/download_csv_24.png">
+			</button>
+		</vbox>
+		<vbox width="70%"
+			height="100%">
+			<hbox width="100%">
+				<label id="_questionsLabel"
+					text="Question's averages for :"
+					styleName="h2"
+					width="160" />
+				<label id="_questionsInfoLabel"
+					text=""
+					styleName="h2"
+					width="30%" />
+				<group id="_lang"
+					width="30%"
+					layoutName="horizontal">
+					<optionbox id="fr"
+						text="fr"
+						selected="true" />
+					<optionbox id="de"
+						text="de" />
+				</group>
+				
+			</hbox>
+			<tableview id="_questions"
+				height="100%"
+				width="100%">
+				<header width="100%">
+					<column id="question"
+						text="question"
+						width="95%"
+						sortable="false" />
+					<column id="avg"
+						text="avg"
+						width="5%"
+						sortable="true" />
+				</header>
+			</tableview>
+			<button id="_download_questions"
+				text="download questions as csv"
+					icon="images/download_csv_24.png">
+			</button>
+		</vbox>
+	</hbox>
+</box>

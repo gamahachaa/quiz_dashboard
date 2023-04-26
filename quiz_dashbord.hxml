@@ -1,0 +1,18 @@
+-lib haxeui-core
+-lib haxeui-html5
+-lib signals
+-lib mongo
+-lib xapi
+-lib lrs
+-lib chartjs
+-lib thx.core
+-lib thx.format
+-lib quality
+-lib utils
+-lib tstool
+-lib uglifyjs
+-cp src
+-cp module
+-js bin/quiz_dashboard.js
+-D "-dce no"
+-main Main

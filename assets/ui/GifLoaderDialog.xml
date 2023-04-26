@@ -1,0 +1,6 @@
+<dialog width="500" height="500">
+    <!--<animation id="gifAnimation" resource="assets/images/loaders/0.gif" />-->
+    <!--<animation id="gifAnimation" resource="images/loaders/0.gif" />-->
+	<!--Salt_icon_id-card_black_rgb.png-->
+	<image id="_imageLaoder" resource="images/loaders/10.gif" width="380" height="380"/>
+</dialog>
